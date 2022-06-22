@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText lNameEdit = (EditText)findViewById(R.id.firstName);
                 String lastName = lNameEdit.getText().toString();
 
-                String fullname = firstName + " mridul singh " + lastName;
+                String fullname = firstName + " testing " + lastName;
 
                 Toast.makeText(MainActivity.this, fullname, Toast.LENGTH_SHORT).show();
             }
